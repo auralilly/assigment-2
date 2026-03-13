@@ -45,3 +45,18 @@ article img {
     display: block;
     box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
+
+article > h2:first-of-type {
+    font-size: 2.7em;
+    font-weight: bold;
+    line-height: 1.05;
+    margin: 0 0 18px;
+    clear: left;                
+}
+
+
+article > h2:first-of-type + p {
+    font-size: 1.15em;
+    font-style: italic;
+    margin-bottom: 35px;
+}
