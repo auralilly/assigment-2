@@ -60,3 +60,15 @@ article > h2:first-of-type + p {
     font-style: italic;
     margin-bottom: 35px;
 }
+
+article h2:not(:first-of-type) {
+    font-size: 1.38em;
+    font-weight: bold;
+    margin: 28px 0 12px;
+    color: #000;
+}
+
+
+article p {
+    margin-bottom: 1.35em;
+}
